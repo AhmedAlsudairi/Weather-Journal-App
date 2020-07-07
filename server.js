@@ -21,23 +21,23 @@ app.use(express.static('website'));
 // Setup Server
 const port = 3000;
 
-const server = app.listen(port, ()=>{ console.log(`The server is running on port number: ${port}`)});
+const server = app.listen(port, () => { console.log(`The server is running on port number: ${port}`) });
 
 //GET route
-app.get('/add', (req,res) => {
+app.get('/add', (req, res) => {
     res.send(projectData);
 });
 
 //POST route
-app.post('/add', (req,res) => {
+app.post('/add', (req, res) => {
     const newData = req.body;
     const newEntry = {
         temperature: newData.temperature,
         date: newData.date,
         userResponse: newData.userResponse
     }
-    projectData = {...newEntry};
-    
+    projectData = { ...newEntry };
+
 });
 
 
