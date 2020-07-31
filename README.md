@@ -10,7 +10,7 @@ This is a single page web app that takes a zip code and text input from the user
 
 ## External APIs
 <ul>
-  <li><a target="_blank" href="https://aylien.com/">Aylie</a></li>
+  <li><a target="_blank" href="https://openweathermap.org/">OpenWeatherMap</a></li>
 </ul>
 
 ## Used tools and technologies
