@@ -6,8 +6,7 @@ This is a single page web app that takes a zip code and text input from the user
 ## Getting started
 1. use <code>cd</code> to go to the appropriate path.
 2. run <code>npm insatll</code> to install all dependencies.
-### Start the app
-1. run <code>npm run start</code> to start the express server.
+3. run <code>npm run start</code> to start the express server.
 
 ## External APIs
 <ul>
